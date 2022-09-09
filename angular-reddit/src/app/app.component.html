@@ -16,5 +16,5 @@
 </form>
 
 <div class="ui grid posts">
-  <app-article *ngFor="let article of article" [article]="article"></app-article>
+  <app-article *ngFor="let article of sortedArticle()" [article]="article"></app-article>
 </div>
